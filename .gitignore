@@ -1,0 +1,8 @@
+.idea
+api/node_modules
+#api/.env
+api/uploads/*
+
+##client/.env
+client/node_modules
+
