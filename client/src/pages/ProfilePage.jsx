@@ -39,7 +39,7 @@ export default function ProfilePage() {
                     <div className="text-center gap-8 max-w-lg mx-auto">
                         Logged in as {user?.name} ({user?.email}) <br />
                         <button onClick={Logout}
-                        className="primary max-w-sm mt-4">Logout</button>
+                        className="hover_botton max-w-sm mt-4">Logout</button>
                     </div>
                 )
             }

@@ -120,7 +120,7 @@ export default function PlacesFormPage() {
                         <input type="number" value={price} onChange={ev => setPrice(ev.target.value)}/>
                     </div>
                 </div>
-                <button className="primary max-w-sm ">Save</button>
+                <button className="hover_botton max-w-sm ">Save</button>
             </form>
         </div>
     );

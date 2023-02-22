@@ -22,3 +22,20 @@ button.primary {
   background-color: #F53850;
   @apply bg-primary mt-2 p-2 w-full text-white rounded-2xl;
 }
+
+.hover_icon_botton {
+  @apply cursor-pointer absolute text-white bg-black bg-opacity-50 rounded-2xl py-1 px-1;
+}
+
+.hover_icon_botton:hover {
+  background-color: #F53850;
+  transform: translateY(-0.15em);
+}
+.hover_botton {
+   @apply primary;
+}
+.hover_botton:hover {
+  color: rgb(0, 34, 128);
+  font-weight: bold;
+  transform: translateY(-0.15em);
+}
